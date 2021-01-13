@@ -14,7 +14,7 @@ const App = () => {
       <AppContextProvider>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={pages.Home} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={pages.Home} />
           </Switch>
         </BrowserRouter>
       </AppContextProvider>
