@@ -1,0 +1,55 @@
+.sidebar {
+  font-weight: 600;
+  height: 100%;
+  width: var(--navbar-shrinked);
+  position: fixed;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.sidebar-icon {
+  padding-top: 20px;
+}
+
+.nav-list {
+  margin: 40px 0px;
+}
+
+.active:before {
+  content: '';
+  width: 6px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  left: 0;
+  background: #f9a109;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.sidebar-bot {
+  position: relative;
+  margin-bottom: 40px;
+  width: max-content;
+  height: max-content;
+}
+
+.cart-button {
+  width: 50px;
+  height: 50px;
+  font-size: 30;
+  color: #fff;
+  background-color: #f9a109;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  margin-left: 6.5em;
+}
